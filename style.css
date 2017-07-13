@@ -1,6 +1,6 @@
-/** {
-  width: 960%auto;
-}*/
+* {
+  max-width: 960%auto;
+}
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -12,6 +12,21 @@ header {
 i {
   float:right;
   display: inline-block;
+  margin-right: 2em;
+}
+
+.main-nav {
+  float: right;
+  text-align: right;
+}
+
+.one-two-three {
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+.four-five-six {
+  margin-left: 5em;
 }
 
 .container-one {
@@ -60,6 +75,8 @@ i {
   width: 15em;
   height: 15em;
   text-align: center;
+  margin-right: 2em;
+  margin-bottom: 5em;
   display: inline-block;
   position: relative;
 }
@@ -71,6 +88,8 @@ i {
   width: 15em;
   height: 15em;
   text-align: center;
+  margin-right: 2em;
+  margin-bottom: 5em;
   display: inline-block;
   position: relative;
 }
@@ -82,6 +101,8 @@ i {
   width: 15em;
   height: 15em;
   text-align: center;
+  margin-right: 2em;
+  margin-bottom: 5em;
   display: inline-block;
   position: relative;
 }
