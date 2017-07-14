@@ -12,12 +12,13 @@ header {
 i {
   float:right;
   display: inline-block;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .main-nav {
   float: right;
   text-align: right;
+  margin-top: 2em;
 }
 
 .one-two-three {
@@ -105,4 +106,8 @@ i {
   margin-bottom: 5em;
   display: inline-block;
   position: relative;
+}
+
+.about {
+  width: 20em;
 }
