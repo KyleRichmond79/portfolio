@@ -1,10 +1,10 @@
 'use strict';
-function projectEntry(name, text, image, path) {
-  this.name = name;
-  this.text = text;
-  this.image = image;
-  this.path = path;
-  ProjectEntry.push(this);
+function projectEntry(rawDataObj) {
+  this.title = rawDataObj.title;
+  this.completedOn = rawDataObj.completedOn;
+  this.image = rawDataObj.image;
+  this.projectUrl = rawDataObj.projectUrl;
+  // ProjectEntry.push(this);
 }
 
-ProjectEntry.all = [];
+// ProjectEntry.all = [];
