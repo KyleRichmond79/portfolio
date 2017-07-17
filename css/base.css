@@ -15,10 +15,21 @@ i {
   margin-right: 1em;
 }
 
+.fa-navicon {
+  float:right;
+  display: inline-block;
+  margin-right: 1em;
+}
 .main-nav {
   float: right;
   text-align: right;
   margin-top: 2em;
+}
+
+li {
+  list-style-type: none;
+  display: block;
+  padding: 1em;
 }
 
 .one-two-three {
@@ -110,4 +121,18 @@ i {
 
 .about {
   width: 20em;
+}
+/*to go in module css*/
+@media (min-width:800px) {
+    .fa-navicon {
+    display:none;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-nav ul {
+    display: none;
+    padding: .5em;
+    clear: both;
+  }
 }

@@ -3,25 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="skeleton.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0\css\font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js">
+    </script>
     <title>Portfolio</title>
   </head>
   <body>
   <header>
     <h1>Kyle Richmond</h1>
-    <i class="fa fa-navicon" aria-hidden="true"></i>
   </header>
   <section>
+    <i class="fa fa-navicon" aria-hidden="true"></i>
     <div class="main-nav">
-      <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Current Projects</li>
-        <li>Past Projects</li>
+      <ul class="navList">
+        <li><a href="index.html"<i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="http://github.com"<i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        <li><a href="http://linkedin.com"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="index.html"<i class="fa fa-address-book" aria-hidden="true"></i></a></li>
       </ul>
   </section>
     </div>
@@ -44,6 +47,6 @@
     </section>
   </main>
   <script type="text/javascript" src="app.js"></script>
-  <script type="text/javascript" src="data.js"></script>  
+  <script type="text/javascript" src="data.js"></script>
   </body>
 </html>
