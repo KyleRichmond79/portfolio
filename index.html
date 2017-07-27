@@ -3,14 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="vendor/font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/skeleton.css">
+    <link rel="stylesheet" href="public/vendor/font-awesome-4.7.0\css\font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/base.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js">
-    </script>
+    <link rel="stylesheet" href="public/css/base.css">
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -26,19 +24,47 @@
         <li><a href="http://linkedin.com"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
         <li><a href="index.html"<i class="fa fa-address-book" aria-hidden="true"></i></a></li>
       </ul>
+    </div>
   </section>
-    </div>
   <main>
-    <div class="one-two-three">
-      <div class="container-one"><p>1</p></div>
-      <div class="container-two"><p>2</p></div>
-      <div class="container-three"><p>3</p></div>
-    </div>
-    <div class="four-five-six">
-      <div class="container-four"><p>4</p></div>
-      <div class="container-five"><p>5</p></div>
-      <div class="container-six"><p>6</p></div>
-    </div>
+    <section>
+      <div class="page-nav">
+        <ul class="pageNavList">
+          <li><h4>Current</h4></li>
+          <li><h4>Past</h4></li>
+          <li><h4>About</h4></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="current-projects">
+        <h2>Current Projects</h2>
+        <div class="one-two-three">
+          <div class="container-one"><p>1</p></div>
+          <div class="container-two"><p>2</p></div>
+        </div>
+        <p>Lorem.</p>
+      </div>
+    </section>
+    <div class="articles">
+      <script id="myProjectEntryList-template" type="text/x-handlebars-template">
+        <li class="projects">
+          <h2>{{title}}</h2>
+          <img src="{{image}}">
+          <h2>{{category}}</h2>
+          <h2>{{completedOn}}</h2>
+        </li>
+      </script>
+    <section>
+      <div class="past-projects">
+        <h2>Past Projects</h2>
+        <div class="four-five-six">
+          <div class="container-three"><p>3</p></div>
+          <div class="container-four"><p>4</p></div>
+        </div>
+        <p>Lorems.</p>
+      </div>
+    </section>
     <section>
       <div class="about">
         <h2>About Me</h2>
@@ -46,7 +72,12 @@
       </div>
     </section>
   </main>
-  <script type="text/javascript" src="app.js"></script>
-  <script type="text/javascript" src="data.js"></script>
+  <footer>
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script type="text/javascript" src="public/scripts/data.js"></script>
+  <script type="text/javascript" src="public/scripts/app.js"></script>
   </body>
 </html>

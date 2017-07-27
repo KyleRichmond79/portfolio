@@ -32,6 +32,10 @@ li {
   padding: 1em;
 }
 
+.pageNavList li {
+  display:inline-block;
+
+}
 .one-two-three {
   margin-top: 5em;
   margin-left: 5em;
